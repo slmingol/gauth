@@ -3,8 +3,8 @@
 [![Tag](https://img.shields.io/github/v/tag/slmingol/gauth)](https://github.com/slmingol/gauth/tags)
 [![Go Report Card](https://goreportcard.com/badge/github.com/slmingol/gauth)](https://goreportcard.com/report/github.com/slmingol/gauth)
 
-> **This is the actively maintained fork** of [moldabekov/gauth](https://github.com/moldabekov/gauth).
-> It adds Go module support, GoReleaser v2, multi-arch releases (amd64 + arm64), automated releases via release-please, and a Homebrew tap.
+> **This is the actively maintained successor** to [moldabekov/gauth](https://github.com/moldabekov/gauth), which is no longer maintained.
+> If you are using the original, please migrate here.
 
 ## gauth is a two-factor authentication agent
 
