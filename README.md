@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="gauth banner" width="100%"/></p>
+![gauth banner](assets/banner.svg)
 
 [![license](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 [![release-please](https://github.com/slmingol/gauth/actions/workflows/release-please.yml/badge.svg)](https://github.com/slmingol/gauth/actions/workflows/release-please.yml)
