@@ -1,7 +1,8 @@
 [![license](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
-[![build-release](https://github.com/slmingol/gauth/actions/workflows/build-release.yml/badge.svg)](https://github.com/slmingol/gauth/actions/workflows/build-release.yml)
-[![Tag](https://img.shields.io/github/v/tag/slmingol/gauth)](https://github.com/slmingol/gauth/tags)
+[![release-please](https://github.com/slmingol/gauth/actions/workflows/release-please.yml/badge.svg)](https://github.com/slmingol/gauth/actions/workflows/release-please.yml)
+[![Release](https://img.shields.io/github/v/release/slmingol/gauth)](https://github.com/slmingol/gauth/releases/latest)
 [![Go Report Card](https://goreportcard.com/badge/github.com/slmingol/gauth)](https://goreportcard.com/report/github.com/slmingol/gauth)
+[![homebrew](https://img.shields.io/badge/homebrew-slmingol%2Ftap%2Fgauth-orange)](https://github.com/slmingol/homebrew-tap)
 
 > **This is the actively maintained successor** to [moldabekov/gauth](https://github.com/moldabekov/gauth), which is no longer maintained.
 > If you are using the original, please migrate here.
