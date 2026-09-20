@@ -1,28 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="160" viewBox="0 0 800 160">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a2e"/>
-      <stop offset="100%" style="stop-color:#16213e"/>
+    <linearGradient id="grad-bg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#7b2ff7"/>
-      <stop offset="100%" style="stop-color:#f107a3"/>
+    <linearGradient id="grad-accent" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#f107a3"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="160" fill="url(#bg)" rx="12"/>
-  <rect y="148" width="800" height="4" fill="url(#accent)" rx="2"/>
+  <rect width="800" height="160" fill="url(#grad-bg)" rx="12"/>
+  <rect y="148" width="800" height="4" fill="url(#grad-accent)" rx="2"/>
   <!-- lock icon -->
-  <g transform="translate(60,45)">
-    <rect x="8" y="28" width="54" height="38" rx="5" fill="none" stroke="url(#accent)" stroke-width="3"/>
-    <path d="M18 28 V20 C18 8 52 8 52 20 V28" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="35" cy="46" r="5" fill="url(#accent)"/>
-    <line x1="35" y1="51" x2="35" y2="58" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
-  </g>
+  <rect x="68" y="73" width="54" height="38" rx="5" fill="none" stroke="#a855f7" stroke-width="3"/>
+  <path d="M78 73 V65 C78 53 112 53 112 65 V73" fill="none" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="95" cy="91" r="5" fill="#a855f7"/>
+  <line x1="95" y1="96" x2="95" y2="103" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
   <!-- title -->
-  <text x="150" y="72" font-family="'Segoe UI', system-ui, sans-serif" font-size="52" font-weight="700" fill="white">gauth</text>
+  <text x="150" y="72" font-family="sans-serif" font-size="52" font-weight="700" fill="white">gauth</text>
   <!-- subtitle -->
-  <text x="152" y="102" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" fill="#a0a0c0">CLI TOTP / 2FA Authenticator &mdash; amd64 + arm64</text>
-  <!-- brew badge -->
-  <rect x="152" y="116" width="240" height="24" rx="4" fill="#1e1e3a"/>
-  <text x="162" y="132" font-family="'Courier New', monospace" font-size="13" fill="#f107a3">brew install slmingol/tap/gauth</text>
+  <text x="152" y="102" font-family="sans-serif" font-size="18" fill="#a0a0c0">CLI TOTP / 2FA Authenticator &#8212; amd64 + arm64</text>
+  <!-- brew pill -->
+  <rect x="152" y="116" width="248" height="26" rx="5" fill="#1e1e3a"/>
+  <text x="162" y="133" font-family="monospace" font-size="13" fill="#e879f9">brew install slmingol/tap/gauth</text>
 </svg>
