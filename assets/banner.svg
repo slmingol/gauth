@@ -2,12 +2,18 @@
   <rect width="800" height="160" fill="#1a1a2e" rx="12"/>
   <rect y="148" width="800" height="4" fill="#a855f7" rx="2"/>
   <rect y="148" width="400" height="4" fill="#f107a3" rx="2"/>
-  <rect x="68" y="73" width="54" height="38" rx="5" fill="none" stroke="#a855f7" stroke-width="3"/>
-  <path d="M78 73 V65 C78 53 112 53 112 65 V73" fill="none" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="95" cy="91" r="5" fill="#a855f7"/>
-  <rect x="93" y="96" width="4" height="8" rx="2" fill="#a855f7"/>
-  <text x="150" y="72" font-family="sans-serif" font-size="52" font-weight="700" fill="white">gauth</text>
-  <text x="152" y="102" font-family="sans-serif" font-size="18" fill="#a0a0c0">Google Authenticator CLI (TOTP/2FA) for the terminal</text>
-  <rect x="152" y="116" width="248" height="26" rx="5" fill="#2d1b4e"/>
-  <text x="162" y="133" font-family="monospace" font-size="13" fill="#e879f9">brew install slmingol/tap/gauth</text>
+  <!-- shackle: left leg, right leg, top bar as filled rects -->
+  <rect x="44" y="36" width="14" height="50" rx="7" fill="#a855f7"/>
+  <rect x="90" y="36" width="14" height="50" rx="7" fill="#a855f7"/>
+  <rect x="44" y="36" width="60" height="14" rx="7" fill="#a855f7"/>
+  <!-- lock body on top covers bottom of legs (looks like shackle enters body) -->
+  <rect x="36" y="82" width="72" height="52" rx="10" fill="#a855f7"/>
+  <!-- keyhole cutout -->
+  <circle cx="72" cy="105" r="11" fill="#1a1a2e"/>
+  <rect x="67" y="114" width="10" height="14" rx="5" fill="#1a1a2e"/>
+  <!-- text -->
+  <text x="160" y="72" font-family="sans-serif" font-size="52" font-weight="700" fill="white">gauth</text>
+  <text x="162" y="102" font-family="sans-serif" font-size="18" fill="#a0a0c0">Google Authenticator CLI (TOTP/2FA) for the terminal</text>
+  <rect x="162" y="116" width="248" height="26" rx="5" fill="#2d1b4e"/>
+  <text x="172" y="133" font-family="monospace" font-size="13" fill="#e879f9">brew install slmingol/tap/gauth</text>
 </svg>
